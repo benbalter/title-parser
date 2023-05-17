@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'yaml'
 require 'action_view'
 require 'action_view/helpers'
@@ -71,13 +72,11 @@ class TitleParser
     return if role == 'Chief of Staff'
     return role if TitleParser.levels.include?(role)
 
-
     match = title_normalized.match(/\A(#{Regexp.union(TitleParser.levels)})|(#{Regexp.union(TitleParser.levels)}) #{Regexp.union(TitleParser.roles)}\z|([i\d]+)\z/i)
     return unless match
 
-    level = (match[1] || match[2] || match[3]).titleize 
-    #level = level + " #{role}" if people_manager?
-    level
+    (match[1] || match[2] || match[3]).titleize
+    # level = level + " #{role}" if people_manager?
   end
 
   def department
