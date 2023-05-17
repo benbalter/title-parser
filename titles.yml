@@ -1,0 +1,70 @@
+roles:
+  - account executive
+  - account manager
+  - accountant
+  - administrator
+  - advocate
+  - analyst
+  - architect
+  - attorney
+  - business analyst
+  - business manager
+  - business partner
+  - campaign manager
+  - channel manager
+  - chief of staff
+  - community manager
+  - coordinator
+  - counsel
+  - designer
+  - developer
+  - development representative
+  - director
+  - engineer
+  - executive assistant
+  - intern
+  - manager
+  - marketing manager
+  - office manager
+  - product manager
+  - program manager
+  - project manager
+  - representative
+  - researcher
+  - scientist
+  - software engineer
+  - solution architect
+  - specialist
+  - strategist
+  - vice president
+  - writer
+  - technical program manager
+levels:
+  - associate
+  - chief
+  - distinguished
+  - field
+  - global
+  - lead
+  - principal
+  - regional
+  - senior
+  - staff
+  - strategic
+specialities:
+  - EMEA
+  - AMER
+  - APAC
+  - East
+acronyms:
+  CEO: Chief Executive Officer
+  PM:  Product Management
+  HR: Human Resources
+  SR.: Senior
+  Sr.: Senior
+  IT: Information Technology
+  SVP: Senior Vice President
+  VP: Vice President
+  Rep: Representative
+  Dir.: Director
+  Mgr.: Manager
